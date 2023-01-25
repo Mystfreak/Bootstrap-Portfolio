@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("images/background.jpg");
+}
+/* navigation bar styling*/ 
+.navbar {
+    background:#000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-family: "Audiowide", sans-serif;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+/* front page / landing page styling*/ 
+h2 {
+    color:#0b03fc;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #selfie {
+    width: 10%;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

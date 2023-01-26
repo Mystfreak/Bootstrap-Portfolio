@@ -71,11 +71,33 @@ h2 {
   }
   /* About me page styling */
   #about {
-
+    background-color: black;
+    width:100%;
+    height:40rem;
+    margin-top: 30rem;
+  }
+  h4 {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    padding:10rem;
   }
   /* Portfolio page styling */
+#work {
+  background-color: #0b03fc;
+  width:100%;
+  height: 50rem;
+}
 .work-title {
-  margin-top: 60rem;
+  color:white;
+  padding: 10rem;
+  /* fixed alignment issues with background portfolio and about me. */
+  margin-top: 0rem;
 }
   /* Flexbox wrapper */
 .wrapper {
@@ -86,28 +108,18 @@ h2 {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin-top:10rem;
-  margin-left: 10rem;
-  margin-bottom: 20rem;
-}
-  #project-1 {
-    width:50%;
-    height:200px;
-  }
-  #project-2 {
-    width:50%;
-    height:200px;
-    background-color: #fff;
-  }
-  #project-3 {
-    width:50%;
-    height:200px;
-    background-color: #fff;
-  }
-.card {
+  grid-gap: 10rem;
 }
   /* Contact page styling */
   #contact {
-
+    background-color: black;
+    width: 100%;
   }
+  p {
+    font-size: 10px;
+  }
+.email {
+  background-color: #000;
+  text-align: center;
+  font-style: italic;
+}

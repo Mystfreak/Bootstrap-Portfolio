@@ -85,7 +85,7 @@ h2 {
     color: white;
     font-family: "Audiowide", sans-serif;
     text-align: center;
-    padding:10rem;
+    padding:8rem;
   }
   /* Portfolio page styling */
 #work {
@@ -111,11 +111,15 @@ h2 {
   grid-gap: 10rem;
   margin-left:10rem;
 }
-
+/* buttons have box-shadow */
+a:hover {
+  box-shadow: 10px 10px 11px rgba(33,33,33,.2); 
+}
   /* Contact page styling */
   #contact {
     background-color: black;
     width: 100%;
+    height:30rem;
   }
   p {
     font-size: 10px;

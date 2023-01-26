@@ -109,7 +109,9 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10rem;
+  margin-left:10rem;
 }
+
   /* Contact page styling */
   #contact {
     background-color: black;

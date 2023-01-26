@@ -12,6 +12,7 @@ body {
     color: #fff;
     cursor: pointer;
     font-family: "Audiowide", sans-serif;
+    position: fixed;
 }
 .nav-link {
     margin-right: 1em !important;
@@ -35,4 +36,79 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  #socials {
+    background-color: black;
+    width: 20%;
+    height: 40px;
+    opacity: 80%;
+    margin: auto;
+    border-radius: 50px;
+    position: relative;
+  }
+  /* social media icon styling */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    display:inline-block;
+    left: 40%;
+    right: 50%;
+    height: 36px;
+    width: 36px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .fa-github {
+    display: block;
+    color: white;
+    border-radius: 20px;
+    left: 40%;
+    right: 50%;
+  }
+  .fa {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+  }
+  /* About me page styling */
+  #about {
+
+  }
+  /* Portfolio page styling */
+  #work {
+
+  }
+  /* Flexbox wrapper */
+.wrapper {
+  display: flex;
+}
+
+/* Grid wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top:50rem;
+  margin-left: 10rem;
+  margin-bottom: 10rem;
+}
+  #project-1 {
+    width:50%;
+    height:200px;
+  }
+  #project-2 {
+    width:50%;
+    height:200px;
+    background-color: #fff;
+  }
+  #project-3 {
+    width:50%;
+    height:200px;
+    background-color: #fff;
+  }
+.card {
+}
+  /* Contact page styling */
+  #contact {
+
   }
